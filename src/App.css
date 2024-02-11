@@ -1,0 +1,41 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #88169A;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.save-button {
+  background-color: #88169A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #D380E5;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+}
+
+.kayRenkler_btn{
+  color: rgb(255, 255, 255);
+}
